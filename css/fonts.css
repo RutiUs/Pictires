@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Raleway-Medium";
+  font-weight: 500;
+  src: url("/font/Raleway-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  font-weight: 700;
+  src: url("/font/Raleway-Bold.woff") format("woff");
+}/*# sourceMappingURL=fonts.css.map */

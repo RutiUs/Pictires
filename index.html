@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>House</title>
+</head>
+<body>
+     <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__img" src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#">
+                            Репродукции
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#">
+                            Новинки
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#">
+                            О нас
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link menu__item-shop" href="#">
+                            <img class="shop" src="img/icon/shop.svg" alt="shop">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__inner-mobile">
+                <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+                <ul class="menu__mobile-list">
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#">
+                            Репродукции
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#">
+                            Новинки
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#">
+                            О нас
+                        </a>
+                    </li>
+                </ul>
+                <div class="shop__icon">
+                    <a class="menu__item-link menu__item-shop" href="#">
+                        <img class="shop" src="img/icon/shop.svg" alt="shop">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+         <section class="pictires">
+            <div class="container">
+                <div class="pictires__item">
+                    <div class="pictire__item-img">
+                        <img class="pictires__img" src="img/images/pictire.png" alt="pictire">
+                    </div>
+                    <div class="pictires__content">
+                        <h1 class="pictires__title">Реплики картин от <a class="pictires__title-text" href="#">Ink.House</a></h1>
+                        <p class="pictires__text">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
+                        <a class="pictires__btn" href="#">Продукция</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reproduction">
+            <div class="container">
+                <div class="reproduction__inner">
+                    <h3 class="reproduction__title">Репродукции</h3>
+                    <div class="reproduction__tabs">
+                        <button class="reproduction__link-text reproduction__link-text--active" data-button="content-1" href="#">Франция</button>
+                        <button class="reproduction__link-text" data-button="content-2" href="#">Германия</button>
+                        <button class="reproduction__link-text" data-button="content-3" href="#">Англия</button>
+                    </div>
+                </div>
+                <div class="reproduction__inner-mobile">
+                    <h3 class="reproduction__title reproduction__title-mobile">Репродукции</h3>
+                    <div class="reproduction__item">
+                        <div class="reproduction__tabs">
+                            <button class="reproduction__link-text reproduction__link-text--active" data-button="content-1" href="#">Франция</button>
+                            <button class="reproduction__link-text" data-button="content-2" href="#">Германия</button>
+                            <button class="reproduction__link-text" data-button="content-3" href="#">Англия</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reproduction__content">
+                    <div class="reproduction__cards reproduction__cards--active" id="content-1">
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-1.jpg" alt="pictire-1">
+                                    <p class="reproduction__text">Марсель Руссо</p>
+                                    <h3 class="reproduction__title">Охота Амура</h3>
+                                    <p class="reproduction__sumbtitle-text">Холст, масло (50х80)</p>
+                                    <p class="reproduction__price">14 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="01"
+                                    data-sb-product-name="Охота Амура"
+                                    data-sb-product-price="14500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-1.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-2.jpg" alt="pictire-2">
+                                    <p class="reproduction__text">Анри Селин</p>
+                                    <h3 class="reproduction__title">Дама с собачкой</h3>
+                                    <p class="reproduction__sumbtitle-text">Акрил, бумага (50х80)</p>
+                                    <p class="reproduction__price">16 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="02"
+                                    data-sb-product-name="Дама с собачкой"
+                                    data-sb-product-price="16500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-2.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-3.jpg" alt="pictire-3">
+                                    <p class="reproduction__text">Франсуа Дюпон</p>
+                                    <h3 class="reproduction__title">Процедура</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">20 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="03"
+                                    data-sb-product-name="Процедура"
+                                    data-sb-product-price="20000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-3.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-4.jpg" alt="pictire-4">
+                                    <p class="reproduction__text">Луи Детуш</p>
+                                    <h3 class="reproduction__title">Роза</h3>
+                                    <p class="reproduction__sumbtitle-text">Бумага, акрил (50х80)</p>
+                                    <p class="reproduction__price">12 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="04"
+                                    data-sb-product-name="Роза"
+                                    data-sb-product-price="12000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-4.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-5.jpg" alt="pictire-5">
+                                    <p class="reproduction__text">Франсуа Дюпон</p>
+                                    <h3 class="reproduction__title">Птичья трапеза</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">22 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="05"
+                                    data-sb-product-name="Птичья трапеза"
+                                    data-sb-product-price="22500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-5.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-6.jpg" alt="pictire-6">
+                                    <p class="reproduction__text">Пьер Моранж</p>
+                                    <h3 class="reproduction__title">Пейзаж с рыбой</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">20 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="06"
+                                    data-sb-product-name="Пейзаж с рыбой"
+                                    data-sb-product-price="20000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-6.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="reproduction__cards" id="content-2">
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-7.jpg" alt="pictire-7">
+                                    <p class="reproduction__text">Курт Вернер</p>
+                                    <h3 class="reproduction__title">Над городом</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">16 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="07"
+                                    data-sb-product-name="Над городом"
+                                    data-sb-product-price="16000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-7.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-8.jpg" alt="pictire-8">
+                                    <p class="reproduction__text">Макс Рихтер</p>
+                                    <h3 class="reproduction__title">Птенцы</h3>
+                                    <p class="reproduction__sumbtitle-text">Холст, масло (50х80)</p>
+                                    <p class="reproduction__price">14 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="08"
+                                    data-sb-product-name="Птенцы"
+                                    data-sb-product-price="14500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-8.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-9.jpg" alt="pictire-9">
+                                    <p class="reproduction__text">Мартин Майер</p>
+                                    <h3 class="reproduction__title">Среди листьев</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">20 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="09"
+                                    data-sb-product-name="Среди листьев"
+                                    data-sb-product-price="20000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-9.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-10.jpg" alt="pictire-10">
+                                    <p class="reproduction__text">Герман Беккер</p>
+                                    <h3 class="reproduction__title">Яркая птица</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">13 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="10"
+                                    data-sb-product-name="Яркая птица"
+                                    data-sb-product-price="13000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-10.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-11.jpg" alt="pictire-11">
+                                    <p class="reproduction__text">Вульф Бауэр</p>
+                                    <h3 class="reproduction__title">Дятлы</h3>
+                                    <p class="reproduction__sumbtitle-text">Бумага, акрил (50х80)</p>
+                                    <p class="reproduction__price">20 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="11"
+                                    data-sb-product-name="Дятлы"
+                                    data-sb-product-price="20000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-11.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-12.jpg" alt="pictire-12">
+                                    <p class="reproduction__text">Вальтер Хартманн</p>
+                                    <h3 class="reproduction__title">Большие воды</h3>
+                                    <p class="reproduction__sumbtitle-text">Бумага, акрил (50х80)</p>
+                                    <p class="reproduction__price">23 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="12"
+                                    data-sb-product-name="Большие воды"
+                                    data-sb-product-price="23000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-12.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reproduction__cards" id="content-3">
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-13.jpg" alt="pictire-13">
+                                    <p class="reproduction__text">Пол Смит</p>
+                                    <h3 class="reproduction__title">Дикий зверь</h3>
+                                    <p class="reproduction__sumbtitle-text">Акварель, бумага (50х80)</p>
+                                    <p class="reproduction__price">19 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="13"
+                                    data-sb-product-name="Дикий зверь"
+                                    data-sb-product-price="19500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-13.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-14.jpg" alt="pictire-14">
+                                    <p class="reproduction__text">Джон Уайт</p>
+                                    <h3 class="reproduction__title">Скалистый берег</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">17 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="14"
+                                    data-sb-product-name="Скалистый берег"
+                                    data-sb-product-price="17500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-14.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-15.jpg" alt="pictire-15">
+                                    <p class="reproduction__text">Джим Уотсон</p>
+                                    <h3 class="reproduction__title">Река и горы</h3>
+                                    <p class="reproduction__sumbtitle-text">Акварель, бумага (50х80)</p>
+                                    <p class="reproduction__price">20 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="15"
+                                    data-sb-product-name="Река и горы"
+                                    data-sb-product-price="20500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-15.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-16.jpg" alt="pictire-16">
+                                    <p class="reproduction__text">Юджин Зиллион</p>
+                                    <h3 class="reproduction__title">Белый попугай</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">15 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="16"
+                                    data-sb-product-name="Белый попугай"
+                                    data-sb-product-price="15500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-16.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-17.jpg" alt="pictire-17">
+                                    <p class="reproduction__text">Эрик Гиллман</p>
+                                    <h3 class="reproduction__title">Ночная рыба</h3>
+                                    <p class="reproduction__sumbtitle-text">Бумага, акрил (50х80)</p>
+                                    <p class="reproduction__price">12 500 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="17"
+                                    data-sb-product-name="Ночная рыба"
+                                    data-sb-product-price="12500"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-17.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reproduction__content-inner">
+                            <div class="reproduction__card-item">
+                                <div class="reproduction__card">
+                                    <img class="reproduction__img" src="img/images/pictire-18.jpg" alt="pictire-18">
+                                    <p class="reproduction__text">Альфред Барр</p>
+                                    <h3 class="reproduction__title">Рыжий кот</h3>
+                                    <p class="reproduction__sumbtitle-text">Цветная литография (40х60)</p>
+                                    <p class="reproduction__price">21 000 руб</p>
+                                    <a class="reproduction__btn"
+                                    data-sb-id-or-vendor-code="18"
+                                    data-sb-product-name="Рыжий кот"
+                                    data-sb-product-price="21000"
+                                    data-sb-product-quantity="1"
+                                    data-sb-product-img="img/images/pictire-18.jpg"
+                                    href="#">В корзину</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="collection">
+            <div class="container">
+                <div class="collection__inner">
+                    <div class="collection__item">
+                        <img class="collection__img" src="img/icon/collection-icon.svg" alt="star">
+                        <h1 class="collection__title">Новая коллекция французских авторов</h1>
+                    </div>
+                    <div class="collection__content">
+                        <p class="collection__text">Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.</p>
+                        <p class="collection__text">Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.</p>
+                    </div>
+                    <button class="collection__btn" href="#">Ознакомиться</button>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+                <div class="team__item">
+                    <div class="team__pictire">
+                        <img class="team__img" src="img/images/pictire-team.png" alt="team">
+                    </div>
+                    <div class="team__content">
+                        <h2 class="team__title">Наша команда</h2>
+                        <p class="team__text">Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
+                        <div class="team__user">
+                            <img class="team__user-img" src="img/images/user-1.png" alt="user-1">
+                            <img class="team__user-img" src="img/images/user-2.png" alt="user-2">
+                            <img class="team__user-img" src="img/images/user-3.png" alt="user-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top-mobile">
+                <a class="footer__link-logo" href="#">
+                    <img class="footer__top-logo" src="img/logo.svg" alt="logo">
+                </a>
+                <div class="footer__top-phone">
+                    <a class="footer__top-link-phone" href="tel:+79995435454">+7 (999) 543-54-54</a>
+                    <p class="footer__text">Мастерская</p>
+                </div>
+            </div>
+            <div class="footer__inner">
+                <div class="footer__inner-col">
+                    <a class="footer__link-logo" href="#">
+                        <img class="footer__inner-logo" src="img/logo.svg" alt="logo">
+                    </a>
+                    <div class="footer__phone">
+                        <a class="footer__link-phone" href="tel:+79995435454">+7 (999) 543-54-54</a>
+                        <p class="footer__text">Мастерская</p>
+                    </div>
+                </div>
+                <div class="footer__inner-col">
+                    <h3 class="footer__title">Репродукции</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">Франция</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">Германия</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">Англия</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__inner-col">
+                    <h3 class="footer__title">Новинки</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">2021</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">2020</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__inner-col">
+                    <h3 class="footer__title">О нас</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">Художники</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__item-link" href="#">Менеджеры</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__inner-col">
+                    <ul class="footer__list-icon">
+                        <li class="footer-icon__item">
+                            <a class="footer__link-icon" href="#">
+                                <img class="facebook" src="img/icon/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="footer-icon__item">
+                            <a class="footer__link-icon" href="#">
+                                <img class="instagram" src="img/icon/instagramm.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="footer-icon__item">
+                            <a class="footer__link-icon" href="#">
+                                <img class="youtube" src="img/icon/youtube.svg" alt="youtube">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="footer__copy-text">Ink. House ®</p>
+                    <p class="footer__copy-text">All rights reserved</p>
+                </div>
+            </div>
+            <a class="footer__link-logo" href="#">
+                <img class="footer-logo" src="img/logo.svg" alt="logo">
+            </a>
+            <div class="footer__inner-mobile">
+                <div class="footer__inner-col footer__mobile">
+                        <div class="footer__phone">
+                            <a class="footer__link-phone" href="tel:+79995435454">+7 (999) 543-54-54</a>
+                            <p class="footer__text">Мастерская</p>
+                        </div>
+                    </div>
+                    <div class="footer__inner-col footer__inner-mobile-col">
+                        <h3 class="footer__title">Репродукции</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">Франция</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">Германия</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">Англия</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__inner-col footer__mobile">
+                        <h3 class="footer__title">Новинки</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">2021</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">2020</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__inner-col footer__mobile">
+                        <h3 class="footer__title">О нас</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">Художники</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="#">Менеджеры</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__inner-col footer__inner-social">
+                    <ul class="footer__list-icon">
+                        <li class="footer-icon__item">
+                            <a class="footer__link-icon" href="#">
+                                <img class="facebook" src="img/icon/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="footer-icon__item">
+                            <a class="footer__link-icon" href="#">
+                                <img class="instagram" src="img/icon/instagramm.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="footer-icon__item">
+                            <a class="footer__link-icon" href="#">
+                                <img class="youtube" src="img/icon/youtube.svg" alt="youtube">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="footer__copy-text">Ink. House ®</p>
+                    <p class="footer__copy-text">All rights reserved</p>
+                </div>
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    <script src="js/main.js"></script>
+
+    <div class="smart-basket__wrapper"></div>
+
+    <script src="smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: 'reproduction__card-item',
+				buttonAddToBasket: 'reproduction__btn',
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+				
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: 'menu__item-shop',
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+</body>
+</html>
